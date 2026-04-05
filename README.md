@@ -1,75 +1,73 @@
-Beginner-friendly machine learning project demonstrating Linear Regression.
+# 📊 Regression Models Implementation
 
-# 📊 Linear Regression Project
-
-## 📌 Overview
-
-This project demonstrates the implementation of **Linear Regression** using Python.
-It predicts the relationship between input features and output using a best-fit line.
+This repository contains implementations of various regression algorithms using both libraries and from-scratch approaches. It is designed to build strong fundamentals in machine learning and understand how regression models work internally.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Models Implemented
+
+* ✔️ Simple Linear Regression
+* ✔️ Multiple Linear Regression
+* ✔️ Polynomial Regression
+* ✔️ Ridge Regression (L2 Regularization)
+* ✔️ Gradient Descent (from scratch)
+
+---
+
+## 🧠 Key Concepts Covered
+
+* Feature-target relationship
+* Overfitting & Regularization
+* Loss functions (MSE)
+* Gradient Descent optimization
+* Model evaluation (R2 Score, MSE)
+
+---
+
+## 🛠️ Tech Stack
 
 * Python
 * NumPy
 * Pandas
 * Matplotlib
-* Scikit-learn
+* scikit-learn
 
 ---
 
-## 📂 Dataset
+## 📂 Project Structure
 
-- Data is manually created for demonstration purposes
-- Used simple input-output values to train the model
-
----
-
-## ⚙️ Model Used
-
-* Linear Regression from Scikit-learn
-
----
-
-## 🚀 How It Works
-
-1. Load the dataset
-2. Split into training and testing data
-3. Train the Linear Regression model
-4. Make predictions
-5. Evaluate performance using metrics
+```
+├── linear_regression/
+├── multiple_regression/
+├── polynomial_regression/
+├── ridge_regression/
+├── gradient_descent/
+└── datasets/
+```
 
 ---
 
-## 📈 Evaluation Metrics
+## 📈 What I Learned
 
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
-* R² Score
-
----
-
-## 📊 Output
-
-* Model predictions
-* Graph showing best-fit line
+* How regression models work mathematically
+* Difference between normal equation and gradient descent
+* Impact of regularization on model performance
+* Writing machine learning models from scratch
 
 ---
 
-## ▶️ How to Run
+## 🎯 Purpose
 
-1. Open the notebook in Google Colab
-2. Run all cells
-3. View results and graphs
-
-
-
+This project is part of my journey to master Machine Learning and Data Science by combining theoretical understanding with practical implementation.
 
 ---
 
-## ⭐ Note
+## 🔥 Future Improvements
 
-This project is created for learning purposes and demonstrates basic machine learning concepts.
+* Add Lasso Regression
+* Add ElasticNet
+* Hyperparameter tuning
+* Model comparison visualization
+
+---
 
